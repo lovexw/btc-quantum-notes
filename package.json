@@ -1,0 +1,35 @@
+{
+  "name": "quantum-threat-bitcoin-guide",
+  "version": "1.0.0",
+  "description": "一份关于量子计算机对比特币威胁的详细科普指南。优雅大气的静态网站，部署在Cloudflare Pages。",
+  "main": "index.html",
+  "scripts": {
+    "deploy": "wrangler pages deploy .",
+    "dev": "python3 -m http.server 8000",
+    "serve": "npx http-server -p 8000 -c-1"
+  },
+  "keywords": [
+    "quantum-computing",
+    "bitcoin",
+    "blockchain",
+    "cryptography",
+    "post-quantum-cryptography",
+    "quantum-threat",
+    "cybersecurity",
+    "education"
+  ],
+  "author": "您的名字",
+  "license": "MIT",
+  "devDependencies": {
+    "@cloudflare/wrangler": "^3.0.0",
+    "http-server": "^14.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/quantum-threat-bitcoin-guide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/quantum-threat-bitcoin-guide/issues"
+  },
+  "homepage": "https://github.com/yourusername/quantum-threat-bitcoin-guide#readme"
+}

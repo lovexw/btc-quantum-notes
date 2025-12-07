@@ -1,0 +1,8 @@
+# Cloudflare Pages 重定向和重写规则
+
+# 保留所有未匹配的请求到 index.html（单页应用模式）
+# 如果需要启用，取消下面的注释
+# /*  /index.html  200
+
+# 安全头部设置
+/  _headers
